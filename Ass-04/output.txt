@@ -1,0 +1,72 @@
+Enter total number of intersections (nodes): 6
+Enter total number of roads (edges): 8
+
+Enter road details (Format: Source_Intersection Dest_Intersection Travel_Time_Mins):
+0 1 4
+0 2 2
+1 2 1
+1 3 5
+2 3 8
+2 4 10
+3 5 2
+4 5 3
+
+Enter Ambulance current location (Source node): 0
+Enter total number of hospitals: 2
+Enter hospital intersection IDs:
+3 4
+
+=================================================================
+             EMERGENCY AMBULANCE ROUTING ANALYSIS                
+=================================================================
+
+Hospital Node 3:
+   Total Travel Time: 8 minutes
+   [Route Path]: Intersection 0  ===>  Intersection 2  ===>  Intersection 1  ===>  Intersection 3
+
+Hospital Node 4:
+   Total Travel Time: 12 minutes
+   [Route Path]: Intersection 0  ===>  Intersection 2  ===>  Intersection 4
+
+-----------------------------------------------------------------
+>>> RECOMMENDED DESTINATION: Hospital 3 (Quickest Time: 8 mins) <<<
+-----------------------------------------------------------------
+
+--- DYNAMIC TRAFFIC CONTROL MENU ---
+1. Update dynamic traffic on a road
+2. Recalculate optimal routes
+3. Exit
+Enter choice: 1
+Enter the two connected intersections and new travel time (u v new_time): 1 3 2
+
+[TRAFFIC UPDATE SUCCESSFUL]: Travel time between Intersection 1 and 3 updated to 2 mins.
+
+--- DYNAMIC TRAFFIC CONTROL MENU ---
+1. Update dynamic traffic on a road
+2. Recalculate optimal routes
+3. Exit
+Enter choice: 2
+
+=================================================================
+             EMERGENCY AMBULANCE ROUTING ANALYSIS                
+=================================================================
+
+Hospital Node 3:
+   Total Travel Time: 5 minutes
+   [Route Path]: Intersection 0  ===>  Intersection 2  ===>  Intersection 1  ===>  Intersection 3
+
+Hospital Node 4:
+   Total Travel Time: 10 minutes
+   [Route Path]: Intersection 0  ===>  Intersection 2  ===>  Intersection 1  ===>  Intersection 3  ===>  Intersection 5  ===>  Intersection 4
+
+-----------------------------------------------------------------
+>>> RECOMMENDED DESTINATION: Hospital 3 (Quickest Time: 5 mins) <<<
+-----------------------------------------------------------------
+
+--- DYNAMIC TRAFFIC CONTROL MENU ---
+1. Update dynamic traffic on a road
+2. Recalculate optimal routes
+3. Exit
+Enter choice: 3
+
+Traffic system session closed.
