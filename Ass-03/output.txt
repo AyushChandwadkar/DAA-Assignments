@@ -1,0 +1,41 @@
+Enter total capacity of rescue boat (W in kg): 50
+Enter number of relief supply item types: 4
+
+Enter details for Item 1:
+  Item Name: Medical Supplies Kit
+  Weight (kg): 10
+  Utility Value: 600
+  Is Divisible? (1 for Yes [e.g., Grain/Water], 0 for No [e.g., MedKit]): 0
+
+Enter details for Item 2:
+  Item Name: Drinking Water
+  Weight (kg): 20
+  Utility Value: 500
+  Is Divisible? (1 for Yes [e.g., Grain/Water], 0 for No [e.g., MedKit]): 1
+
+Enter details for Item 3:
+  Item Name: Food Grain Bags
+  Weight (kg): 30
+  Utility Value: 450
+  Is Divisible? (1 for Yes [e.g., Grain/Water], 0 for No [e.g., MedKit]): 1
+
+Enter details for Item 4:
+  Item Name: Sattelite Phones
+  Weight (kg): 5
+  Utility Value: 150
+  Is Divisible? (1 for Yes [e.g., Grain/Water], 0 for No [e.g., MedKit]): 0
+
+====================================================================
+               EMERGENCY BOAT SHIPMENT MANIFEST              
+====================================================================
+Item Name         Weight (kg)   Loaded (kg)   Portion     Utility     
+--------------------------------------------------------------------
+Medical Supplies Kit10.0          10.0          100%        600.00      
+Sattelite Phones  5.0           5.0           100%        150.00      
+Drinking Water    20.0          20.0          100%        500.00      
+Food Grain Bags   30.0          15.0          50.0       %225.00      
+--------------------------------------------------------------------
+Total Capacity Allowed : 50.00 kg
+Total Weight Transported: 50.00 kg
+Total Utility Value     : 1475.00
+====================================================================

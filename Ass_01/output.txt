@@ -1,0 +1,41 @@
+Enter the number of customer orders: 4
+
+Enter details for Order 1:
+  Order ID: 101
+  Customer Name: abc
+  Timestamp (epoch seconds): 1711960000
+  Order Amount: 149.99
+
+Enter details for Order 2:
+  Order ID: 102
+  Customer Name: jhv
+  Timestamp (epoch seconds): 1711958400
+  Order Amount: 250
+
+Enter details for Order 3:
+  Order ID: 103
+  Customer Name: iygv 
+  Timestamp (epoch seconds): 1711946789
+  Order Amount: 1245
+
+Enter details for Order 4:
+  Order ID: 104
+  Customer Name: iugu
+  Timestamp (epoch seconds): 1711958423
+  Order Amount: 5677
+
+--- Orders Before Sorting ---
+Order ID  Customer Name       Timestamp      Amount ($)  
+---------------------------------------------------------
+101       abc                 1711960000     149.99      
+102       jhv                 1711958400     250.00      
+103       iygv                1711946789     1245.00     
+104       iugu                1711958423     5677.00     
+
+--- Orders Sorted by Timestamp (Ascending) ---
+Order ID  Customer Name       Timestamp      Amount ($)  
+---------------------------------------------------------
+103       iygv                1711946789     1245.00     
+102       jhv                 1711958400     250.00      
+104       iugu                1711958423     5677.00     
+101       abc                 1711960000     149.99      
