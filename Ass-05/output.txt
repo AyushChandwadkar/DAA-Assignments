@@ -1,0 +1,59 @@
+Enter total number of stages (N >= 2): 4
+
+--- Hub Allocation Per Stage ---
+Enter number of hubs in Stage 1: 1
+Enter number of hubs in Stage 2: 3
+Enter number of hubs in Stage 3: 2
+Enter number of hubs in Stage 4: 1
+
+Generated Hub IDs by Stage:
+  Stage 1: Hub IDs [ 0 ]
+  Stage 2: Hub IDs [ 1 2 3 ]
+  Stage 3: Hub IDs [ 4 5 ]
+  Stage 4: Hub IDs [ 6 ]
+
+Enter total number of connecting routes/edges: 8
+Enter route details (Format: Source_Hub Dest_Hub Weight/Cost):
+0 1 2
+0 2 4
+0 3 1
+1 4 3
+2 4 2
+2 5 2
+3 5 1
+4 6 1
+
+=================================================================
+            SWIFTCARGO MULTISTAGE ROUTE OPTIMIZATION             
+=================================================================
+Total Optimal Delivery Cost / Time: 6 units
+   [Optimal Delivery Path]: Hub 0  ===>  Hub 1  ===>  Hub 4  ===>  Hub 6
+=================================================================
+
+--- SWIFTCARGO LOGISTICS CONTROL MENU ---
+1. Update real-time route cost (Traffic/Weather/Road Closures)
+2. Batch Process Delivery Packages (Recalculate Optimal Routes)
+3. Exit
+Enter choice: 1
+Enter Source Hub, Dest Hub, and New Cost (u v new_cost): 3 5 10
+
+[REAL-TIME UPDATE SUCCESSFUL]: Route cost from Hub 3 to Hub 5 updated to 10 units.
+
+--- SWIFTCARGO LOGISTICS CONTROL MENU ---
+1. Update real-time route cost (Traffic/Weather/Road Closures)
+2. Batch Process Delivery Packages (Recalculate Optimal Routes)
+3. Exit
+Enter choice: 2
+
+=================================================================
+               BATCH ROUTING RECALCULATION RESULTS               
+=================================================================
+Updated Minimum Delivery Cost: 6 units
+   [Optimal Delivery Path]: Hub 0  ===>  Hub 1  ===>  Hub 4  ===>  Hub 6
+=================================================================
+
+--- SWIFTCARGO LOGISTICS CONTROL MENU ---
+1. Update real-time route cost (Traffic/Weather/Road Closures)
+2. Batch Process Delivery Packages (Recalculate Optimal Routes)
+3. Exit
+Enter choice: 3

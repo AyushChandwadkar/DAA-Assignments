@@ -1,0 +1,16 @@
+Enter total number of cities (N): 4
+
+Enter Cost/Distance Matrix (4x4):
+(Note: Enter 0 or -1 for self-loops/no direct road):
+0 10 15 20
+10 0 35 25
+15 35 0 30
+20 25 30 0
+
+=================================================================
+            SWIFTSHIP OPTIMAL DELIVERY ROUTE                     
+=================================================================
+   [Minimum Travel Cost / Time]: 80 units
+
+   [Optimal Delivery Path]: City 0  ===>  City 2  ===>  City 3  ===>  City 1  ===>  City 0
+=================================================================

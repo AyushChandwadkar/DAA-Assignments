@@ -1,0 +1,42 @@
+Enter total truck weight capacity (W in kg): 50
+Enter total number of relief supply item types (N): 4
+
+Enter details for Item 1:
+  Item Name: Medical Kits
+  Weight (kg): 10
+  Base Utility Score: 100
+  Priority (1: Critical/Perishable [Medicine/Food], 2: Standard [Tents/Blankets]): 1
+
+Enter details for Item 2:
+  Item Name: Ready to Eat Meals
+  Weight (kg): 20
+  Base Utility Score: 80
+  Priority (1: Critical/Perishable [Medicine/Food], 2: Standard [Tents/Blankets]): 1
+
+Enter details for Item 3:
+  Item Name: Emergency Tents
+  Weight (kg): 30
+  Base Utility Score: 120
+  Priority (1: Critical/Perishable [Medicine/Food], 2: Standard [Tents/Blankets]): 2
+
+Enter details for Item 4:
+  Item Name: Warm Blankets
+  Weight (kg): 15
+  Base Utility Score: 50
+  Priority (1: Critical/Perishable [Medicine/Food], 2: Standard [Tents/Blankets]): 2
+
+=================================================================
+             OPTIMAL DISASTER RELIEF TRUCK MANIFEST              
+=================================================================
+Item Name             Weight(kg)  Priority    Base Util   Eff. Util   
+--------------------------------------------------------------------
+Warm Blankets         15          Standard    50          50          
+Ready to Eat Meals    20          Critical    80          160         
+Medical Kits          10          Critical    100         200         
+--------------------------------------------------------------------
+Truck Capacity Limit   : 50 kg
+Total Weight Transported: 45 kg
+Remaining Unused Capacity: 5 kg
+Total Base Utility      : 230
+Total Effective Utility : 410
+=================================================================
